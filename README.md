@@ -1,5 +1,4 @@
-# spt24-front-clone
-<br>
+# spt24-front-clone<br>
 - npm install -g @vue/cli
 - npm install axios
 - npm install vue
