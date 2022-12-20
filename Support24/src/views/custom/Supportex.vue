@@ -9,7 +9,48 @@
                 <h4 id="traffic" class="card-title mb-0">
                   맞춤 지원 사업 공고
                 </h4>
+                <br />
+                <div id="location">
+                  <b>지역</b><br />
+                  <CFormCheck
+                    inline
+                    id="inlineCheckbox1"
+                    value="option1"
+                    label="서울"
+                  />
+                  <CFormCheck
+                    inline
+                    id="inlineCheckbox2"
+                    value="option2"
+                    label="부산"
+                  />
+                  <CFormCheck
+                    inline
+                    id="inlineCheckbox2"
+                    value="option2"
+                    label="경기"
+                  />
+                  <CFormCheck
+                    inline
+                    id="inlineCheckbox2"
+                    value="option2"
+                    label="전남"
+                  />
+                  <CFormCheck
+                    inline
+                    id="inlineCheckbox2"
+                    value="option2"
+                    label="경남"
+                  />
+                  <CFormCheck
+                    inline
+                    id="inlineCheckbox2"
+                    value="option2"
+                    label="광주"
+                  />
+                </div>
               </CCol>
+              <Ccol>옆부분인가요?</Ccol>
             </CRow>
             <CRow>
               <div style="height: 300px; max-height: 300px; margin-top: 40px">
@@ -46,11 +87,8 @@ export default {
   right: 110px;
   width: 1500px;
 }
-h4 {
+#traffic h4 {
   position: relative;
   left: 80px;
-}
-#box1 {
-  width: 0px;
 }
 </style>

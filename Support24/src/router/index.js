@@ -85,7 +85,7 @@ const routes = [
         ],
       },
       {
-        path: 'Supportnotice/Supportnotice',
+        path: '/Supportnotice/Supportnotice',
         name: '지원사업페이지',
         component: () => import('@/views/Supportnotice/Supportnotice.vue'),
       },

@@ -13,5 +13,4 @@ app.use(router)
 app.use(CoreuiVue)
 app.provide('icons', icons)
 app.component('CIcon', CIcon)
-
 app.mount('#app')
