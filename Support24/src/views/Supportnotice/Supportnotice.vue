@@ -1,30 +1,31 @@
 <template>
   <div id="main">
     <CRow>
-      <CCol :md="12">
+      <CCol :md="9">
         <CCard class="mb-4">
           <CCardBody>
             <CRow>
-              <CCol :sm="5" class="header1">
-                <h4 id="traffic" class="card-title mb-0">
-                  클릭한 지원 사업 공고 <br />지원사업 공고가 있는 페이지 URL
-                </h4>
+              <CCol :md="12">
+                <h3>이부분에는 지원사업의 이름이 들어갑니다.</h3>
+                <br />
               </CCol>
             </CRow>
             <CRow>
-              <div style="height: 800px; max-height: 800px; margin-top: 40px">
-                <div class="container show-grid">
-                  <div class="row">
-                    <div>
-                      <h3>공고제목</h3>
-                      <p>
-                        이부분엔 지원 사업의 내용이 들어가는 부분입니다. 크롤링
-                        해온 데이터들중 내용 부분이 여기에 들어가요
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <CCol :md="12"> <P>이부분에는 글의 내용이들어갑니다.</P> </CCol>
+            </CRow>
+            <CRow>
+              <CCol :md="12"> 이부분은 아래 해시태그부분입니다 </CCol>
+            </CRow>
+          </CCardBody>
+        </CCard>
+      </CCol>
+      <CCol :md="3">
+        <CCard class="mb-4">
+          <CCardBody>
+            <CRow>
+              <CCol :md="12" class="photo1"
+                >이부분은 포스터이미지들어가는부분</CCol
+              >
             </CRow>
           </CCardBody>
         </CCard>
@@ -42,3 +43,8 @@ export default {
   },
 }
 </script>
+<style>
+.photo1 {
+  height: 130px;
+}
+</style>
