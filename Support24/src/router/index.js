@@ -94,6 +94,11 @@ const routes = [
         name: '지원사업페이지',
         component: () => import('@/views/Supportnotice/Supportnotice.vue'),
       },
+      {
+        path: '/adminpage/adminpage',
+        name: '관리자페이지',
+        component: () => import('@/views/adminpage/adminpage.vue'),
+      },
     ],
   },
 ]

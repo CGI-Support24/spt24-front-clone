@@ -36,8 +36,10 @@
               }
             "
           >
+            <!-- 로그인 버튼인데 지금로그인 되어있는데 구현되어있습니다. 로그인이 되어있을때면 -->
+            <!--<CButton color="dark" class="login">로그아웃 </CButton>  이 버튼이 출력되어야합니다.-->
             <CModalHeader>
-              <!--로그인 모달 입니당 기능구현은 안해도되고 해도 된다고 해요.-->
+              <!--아래는로그인 모달 입니당 기능구현은 안해도되고 해도 된다고 해요.-->
               <CModalTitle>로그인</CModalTitle>
             </CModalHeader>
             <CModalBody>

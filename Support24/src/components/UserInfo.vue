@@ -6,6 +6,7 @@
     <p>사업체 종류 : 농업</p>
     <p>개업시기 : 20.12.19</p>
     <p>사업체 인원수 : 26</p>
+    <CButton id="logoutbutton" color="dark">로그아웃</CButton>
   </div>
 </template>
 
@@ -26,5 +27,11 @@ export default {
   position: relative;
   top: 30px;
   left: 30px;
+}
+#logoutbutton {
+  position: relative;
+  left: 120px;
+  width: 90px;
+  height: 40px;
 }
 </style>

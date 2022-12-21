@@ -26,7 +26,7 @@ export default [
       },
       {
         component: 'CNavItem',
-        name: '김융지원',
+        name: '금융지원',
         to: '/base/SPno4',
       },
       {
@@ -48,7 +48,7 @@ export default [
   },
   {
     component: 'CNavItem',
-    name: '맞춤지원사업',
+    name: '사용자추천지원사업',
     to: '/custom/supportex',
     icon: 'cilCheck',
   },
