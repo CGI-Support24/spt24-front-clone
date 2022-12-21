@@ -7,7 +7,7 @@
             <CRow>
               <CCol :sm="5">
                 <h4 id="traffic" class="card-title mb-0">
-                  기술 지원 사업 공고
+                  금융 지원 사업 공고
                 </h4>
               </CCol>
             </CRow>

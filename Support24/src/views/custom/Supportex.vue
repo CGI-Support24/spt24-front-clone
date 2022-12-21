@@ -7,7 +7,7 @@
           <CCard class="mb-4">
             <CCardBody>
               <CRow>
-                <CCol :md="12">
+                <CCol :md="4">
                   <h4 id="traffic" class="card-title mb-0">
                     맞춤 지원 사업 공고
                   </h4>
@@ -28,26 +28,26 @@
                     />
                     <CFormCheck
                       inline
-                      id="inlineCheckbox2"
-                      value="option2"
+                      id="inlineCheckbox3"
+                      value="option3"
                       label="경기"
                     />
                     <CFormCheck
                       inline
-                      id="inlineCheckbox2"
-                      value="option2"
+                      id="inlineCheckbox4"
+                      value="option4"
                       label="전남"
                     />
                     <CFormCheck
                       inline
-                      id="inlineCheckbox2"
-                      value="option2"
+                      id="inlineCheckbox5"
+                      value="option5"
                       label="경남"
                     />
                     <CFormCheck
                       inline
-                      id="inlineCheckbox2"
-                      value="option2"
+                      id="inlineCheckbox6"
+                      value="option6"
                       label="광주"
                     />
                   </div>
@@ -107,6 +107,6 @@ export default {
 }
 #noticesearchbutton {
   position: relative;
-  left: 550%;
+  left: 580%;
 }
 </style>

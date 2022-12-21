@@ -11,33 +11,38 @@ export default [
     items: [
       {
         component: 'CNavItem',
-        name: '%%지원',
+        name: '인력지원',
         to: '/base/SPno1',
       },
       {
         component: 'CNavItem',
-        name: '@@지원',
+        name: '경영지원',
         to: '/base/SPno2',
       },
       {
         component: 'CNavItem',
-        name: '정부지원',
+        name: '기술지원',
         to: '/base/SPno3',
       },
       {
         component: 'CNavItem',
-        name: '인력지원',
-        to: '/base/SPper',
+        name: '김융지원',
+        to: '/base/SPno4',
       },
       {
         component: 'CNavItem',
-        name: '장소지원',
-        to: '/base/SPplace',
+        name: '창업지원',
+        to: '/base/SPno5',
       },
       {
         component: 'CNavItem',
-        name: '기술지원',
-        to: '/base/SPtec',
+        name: '내수지원',
+        to: '/base/SPno6',
+      },
+      {
+        component: 'CNavItem',
+        name: '수출지원',
+        to: '/base/SPno7',
       },
     ],
   },

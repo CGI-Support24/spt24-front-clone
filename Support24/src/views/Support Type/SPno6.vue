@@ -7,33 +7,8 @@
             <CRow>
               <CCol :sm="5">
                 <h4 id="traffic" class="card-title mb-0">
-                  인력 지원 사업 공고
+                  내수 지원 사업 공고
                 </h4>
-              </CCol>
-            </CRow>
-            <CRow>
-              <div style="height: 300px; max-height: 300px; margin-top: 40px">
-                <div class="container show-grid">
-                  <div class="row">
-                    <div class="col-md-3">첫번째 공고 들어가는 자리</div>
-                    <div class="col-md-3">두번째 공고 들어가는 자리</div>
-                    <div class="col-md-3">세번째 공고 들어가는 자리</div>
-                    <div class="col-md-3">네번째 공고 들어가는 자리</div>
-                  </div>
-                </div>
-              </div>
-            </CRow>
-          </CCardBody>
-        </CCard>
-      </CCol>
-    </CRow>
-    <CRow>
-      <CCol :md="12">
-        <CCard class="mb-4">
-          <CCardBody>
-            <CRow>
-              <CCol :sm="5">
-                <h4 id="traffic" class="card-title mb-0">%%지원 사업들</h4>
               </CCol>
             </CRow>
             <CRow>
