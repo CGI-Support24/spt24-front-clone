@@ -11,10 +11,9 @@
               </CCol>
             </CRow>
             <CRow>
-              <CCol :md="12"> <P>이부분에는 글의 내용이들어갑니다.</P> </CCol>
-            </CRow>
-            <CRow>
-              <CCol :md="12"> 이부분은 아래 해시태그부분입니다 </CCol>
+              <CCol :md="12">
+                <P>이부분에는 크롤링 한 게시물의 URL이 표기됩니다.</P>
+              </CCol>
             </CRow>
           </CCardBody>
         </CCard>
@@ -26,6 +25,24 @@
               <CCol :md="12" class="photo1"
                 >이부분은 포스터이미지들어가는부분</CCol
               >
+            </CRow>
+          </CCardBody>
+        </CCard>
+      </CCol>
+    </CRow>
+    <CRow>
+      <CCol :md="12">
+        <CCard class="mb-4">
+          <CCardBody>
+            <CRow>
+              <CCol :md="12">
+                <P>이부분에는 게시물의 내용이 들어가는부분입니다</P>
+              </CCol>
+              <CRow>
+                <CCol :md="12">
+                  <P>이부분에는 글의 해시태그가 들어가는 부분입니다.</P>
+                </CCol>
+              </CRow>
             </CRow>
           </CCardBody>
         </CCard>
@@ -45,6 +62,6 @@ export default {
 </script>
 <style>
 .photo1 {
-  height: 130px;
+  height: 110px;
 }
 </style>

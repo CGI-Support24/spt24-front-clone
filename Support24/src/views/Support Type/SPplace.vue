@@ -46,10 +46,6 @@ export default {
   right: 110px;
   width: 1500px;
 }
-h4 {
-  position: relative;
-  left: 80px;
-}
 #box1 {
   width: 0px;
 }
