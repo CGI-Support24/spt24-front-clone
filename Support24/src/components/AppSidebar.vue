@@ -17,11 +17,10 @@
       </a>
     </CSidebarBrand>
     <AppSidebarNav />
-    <div v-if="userInfo == null">
-      <!--로그인 하면 이 컴포넌트 보여주면 됩니다. 지금은 =!, == 거꾸로 해둬서 정보 보임!-->
+    <div v-if="userInfo != null">
       <UserInfo />
     </div>
-    <div v-if="userInfo != null" align="center">
+    <div v-if="userInfo == null" align="center">
       <p>로그인시 <br />사용자의 정보가 표기됩니다.</p>
     </div>
   </CSidebar>
@@ -40,7 +39,7 @@ export default {
   },
   data() {
     return {
-      userinfo: '로그인함',
+      userInfo: 'null아님',
     }
   },
   setup() {

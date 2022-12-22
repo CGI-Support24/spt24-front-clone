@@ -17,7 +17,7 @@
             </button>
           </form>
         </CNavItem>
-        <div>
+        <div v-if="userInfo == null">
           <CButton
             color="dark"
             class="login"
@@ -28,53 +28,56 @@
             "
             >로그인
           </CButton>
-          <CModal
-            :visible="visibleLiveDemo"
-            @close="
-              () => {
-                visibleLiveDemo = false
-              }
-            "
-          >
-            <!-- 로그인 버튼인데 지금로그인 되어있는데 구현되어있습니다. 로그인이 되어있을때면 -->
-            <!--<CButton color="dark" class="login">로그아웃 </CButton>  이 버튼이 출력되어야합니다.-->
-            <CModalHeader>
-              <!--아래는로그인 모달 입니당 기능구현은 안해도되고 해도 된다고 해요.-->
-              <CModalTitle>로그인</CModalTitle>
-            </CModalHeader>
-            <CModalBody>
-              <CInputGroup class="mb-3">
-                <CInputGroupText>
-                  <CIcon icon="cil-user" />
-                </CInputGroupText>
-                <CFormInput placeholder="아이디입력" autocomplete="username" />
-              </CInputGroup>
-              <CInputGroup class="mb-4">
-                <CInputGroupText>
-                  <CIcon icon="cil-lock-locked" />
-                </CInputGroupText>
-                <CFormInput
-                  type="password"
-                  placeholder="비밀번호 입력"
-                  autocomplete="current-password"
-                />
-              </CInputGroup>
-            </CModalBody>
-            <CModalFooter>
-              <CButton class="ModalButton">로그인</CButton>
-              <CButton class="ModalButton">회원가입</CButton>
-              <CButton
-                color="secondary"
-                @click="
-                  () => {
-                    visibleLiveDemo = false
-                  }
-                "
-                >닫기</CButton
-              >
-            </CModalFooter>
-          </CModal>
         </div>
+        <div v-if="userInfo != null">
+          <CButton color="dark" class="login">로그아웃</CButton>
+        </div>
+        <CModal
+          :visible="visibleLiveDemo"
+          @close="
+            () => {
+              visibleLiveDemo = false
+            }
+          "
+        >
+          <!-- 로그인 버튼인데 지금로그인 되어있는데 구현되어있습니다. 로그인이 되어있을때면 -->
+          <!--<CButton color="dark" class="login">로그아웃 </CButton>  이 버튼이 출력되어야합니다.-->
+          <CModalHeader>
+            <!--아래는로그인 모달 입니당 기능구현은 안해도되고 해도 된다고 해요.-->
+            <CModalTitle>로그인</CModalTitle>
+          </CModalHeader>
+          <CModalBody>
+            <CInputGroup class="mb-3">
+              <CInputGroupText>
+                <CIcon icon="cil-user" />
+              </CInputGroupText>
+              <CFormInput placeholder="아이디입력" autocomplete="username" />
+            </CInputGroup>
+            <CInputGroup class="mb-4">
+              <CInputGroupText>
+                <CIcon icon="cil-lock-locked" />
+              </CInputGroupText>
+              <CFormInput
+                type="password"
+                placeholder="비밀번호 입력"
+                autocomplete="current-password"
+              />
+            </CInputGroup>
+          </CModalBody>
+          <CModalFooter>
+            <CButton class="ModalButton">로그인</CButton>
+            <CButton class="ModalButton">회원가입</CButton>
+            <CButton
+              color="secondary"
+              @click="
+                () => {
+                  visibleLiveDemo = false
+                }
+              "
+              >닫기</CButton
+            >
+          </CModalFooter>
+        </CModal>
       </CHeaderNav>
     </CContainer>
   </CHeader>
@@ -121,9 +124,11 @@ button.login {
 </style>
 <script>
 export default {
+  name: 'AppHeader',
   data() {
     return {
       visibleLiveDemo: false,
+      userInfo: 'null 아님 !',
     }
   },
 }
