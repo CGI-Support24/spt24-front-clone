@@ -7,6 +7,9 @@
     <p>개업시기 : 20.12.19</p>
     <p>사업체 인원수 : 26</p>
     <CButton id="logoutbutton" color="dark">로그아웃</CButton>
+    <router-link to="adminpage/adminpage"
+      ><CButton color="info" id="logoutbutton">관리자</CButton>
+    </router-link>
   </div>
 </template>
 
