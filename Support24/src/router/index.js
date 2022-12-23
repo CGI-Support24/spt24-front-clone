@@ -51,7 +51,7 @@ const routes = [
             component: () => import('@/views/Support Type/SPno5.vue'),
           },
           {
-            path: '/base/SPno6',
+            path: '/base/SPno',
             name: '수출지원',
             component: () => import('@/views/Support Type/SPno6.vue'),
           },

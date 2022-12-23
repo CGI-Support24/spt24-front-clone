@@ -23,8 +23,7 @@
                   </div>
                   <div class="col-md-5">
                     <router-link to="Supportnotice/Supportnotice">
-                      <h3>공고제목 or 이미지</h3>
-                      <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
+                      <img class="testimg1" src="@/assets/images/test1.jpg" />
                     </router-link>
                   </div>
                   <div class="col-md-5">
@@ -57,20 +56,35 @@
             <CRow>
               <CCol :sm="5">
                 <h4 id="traffic" class="card-title mb-0">마감임박 지원 사업</h4>
+                <br />
               </CCol>
             </CRow>
             <CRow>
-              <div style="height: 300px; max-height: 300px; margin-top: 40px">
-                <div class="container show-grid">
-                  <div class="row">
-                    <div class="col-md-3">첫번째 공고 들어가는 자리</div>
-                    <div class="col-md-3">두번째 공고 들어가는 자리</div>
-                    <div class="col-md-3">세번째 공고 들어가는 자리</div>
-                    <div class="col-md-3">네번째 공고 들어가는 자리</div>
-                    <div class="col-md-3">다섯번째 공고 들어가는 자리</div>
-                    <div class="col-md-3">여섯째 공고 들어가는 자리</div>
-                    <div class="col-md-3">일곱번째 공고 들어가는 자리</div>
-                    <div class="col-md-3">여덟번째 공고 들어가는 자리</div>
+              <div class="container show-grid">
+                <div class="row">
+                  <div class="col-md-5">
+                    <h3>공고제목 or 이미지</h3>
+                    <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
+                  </div>
+                  <div class="col-md-5">
+                    <h3>공고제목 or 이미지</h3>
+                    <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
+                  </div>
+                  <div class="col-md-5">
+                    <h3>공고제목 or 이미지</h3>
+                    <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
+                  </div>
+                  <div class="col-md-5">
+                    <h3>공고제목 or 이미지</h3>
+                    <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
+                  </div>
+                  <div class="col-md-5">
+                    <h3>공고제목 or 이미지</h3>
+                    <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
+                  </div>
+                  <div class="col-md-5">
+                    <h3>공고제목 or 이미지</h3>
+                    <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
                   </div>
                 </div>
               </div>

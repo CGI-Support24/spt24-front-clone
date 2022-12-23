@@ -11,10 +11,12 @@
               class="search-txt"
               type="text"
               placeholder="검색어를 입력해 주세요"
-            /><!--검색하는 부분 입니당 -->
-            <button class="search-btn" type="submit">
-              <img class="ser" src="@/assets/images/search.png" />
-            </button>
+            /><!--검색하는 부분 입니당 (야매)-->
+            <router-link to="Supportnotice/Supportnotice">
+              <button class="search-btn" type="submit">
+                <img class="ser" src="@/assets/images/search.png" />
+              </button>
+            </router-link>
           </form>
         </CNavItem>
         <div v-if="userInfo == null">

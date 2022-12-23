@@ -7,16 +7,24 @@
             <CRow>
               <CCol :sm="5">
                 <h4 id="traffic" class="card-title mb-0">지원금 지원 관련</h4>
+                <br />
+                <br />
               </CCol>
             </CRow>
             <CRow>
-              <div style="height: 300px; max-height: 300px; margin-top: 40px">
-                <div class="container show-grid">
-                  <div class="row">
-                    <div class="col-md-3">예시</div>
-                    <div class="col-md-3">페이지</div>
-                    <div class="col-md-3">입니당</div>
-                    <div class="col-md-3">!!</div>
+              <div class="container show-grid">
+                <div class="row">
+                  <div class="col-md-5">
+                    <h3>공고제목 or 이미지</h3>
+                    <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
+                  </div>
+                  <div class="col-md-5">
+                    <h3>공고제목 or 이미지</h3>
+                    <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
+                  </div>
+                  <div class="col-md-5">
+                    <h3>공고제목 or 이미지</h3>
+                    <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
                   </div>
                 </div>
               </div>
