@@ -36,13 +36,8 @@ export default [
       },
       {
         component: 'CNavItem',
-        name: '내수지원',
-        to: '/base/SPno6',
-      },
-      {
-        component: 'CNavItem',
         name: '수출지원',
-        to: '/base/SPno7',
+        to: '/base/SPno6',
       },
     ],
   },

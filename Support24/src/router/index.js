@@ -52,13 +52,8 @@ const routes = [
           },
           {
             path: '/base/SPno6',
-            name: '내수지원',
-            component: () => import('@/views/Support Type/SPno6.vue'),
-          },
-          {
-            path: '/base/SPno7',
             name: '수출지원',
-            component: () => import('@/views/Support Type/SPno7.vue'),
+            component: () => import('@/views/Support Type/SPno6.vue'),
           },
         ],
       },
@@ -84,7 +79,7 @@ const routes = [
           },
           {
             path: '/Question/none',
-            name: '빈페이지',
+            name: '지원금지원?',
             component: () => import('@/views/Question/none.vue'),
           },
         ],
