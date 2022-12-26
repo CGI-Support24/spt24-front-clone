@@ -46,11 +46,21 @@
                     </tr>
                     <tr>
                       <th scope="row">지원사업</th>
-                      <td>내용이 들어갑니다.</td>
+                      <td class="support-content">
+                        <div>내용이 들어갑니다.</div>
+                        <CButton class="keywordbtn" color="secondary"
+                          >수정하기</CButton
+                        >
+                      </td>
                     </tr>
                     <tr>
                       <th scope="row">지원금</th>
-                      <td>내용이 들어갑니다.</td>
+                      <td class="support-content">
+                        <div>내용이 들어갑니다.</div>
+                        <CButton class="keywordbtn" color="secondary"
+                          >수정하기</CButton
+                        >
+                      </td>
                     </tr>
                   </tbody>
                 </table>
@@ -92,7 +102,7 @@ table.keyword thead th {
   color: #fff;
 }
 table.keyword tbody th {
-  width: 50px;
+  width: 10%;
   padding: 10px;
   font-weight: bold;
   vertical-align: top;
@@ -100,7 +110,7 @@ table.keyword tbody th {
   background: #fcf1f4;
 }
 table.keyword td {
-  width: 350px;
+  width: 90%;
   padding: 10px;
   vertical-align: top;
   border-bottom: 1px solid #ccc;
