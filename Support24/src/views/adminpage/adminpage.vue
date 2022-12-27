@@ -11,17 +11,17 @@
               </CCol>
               <CRow>
                 <h4>오늘 추가된 지원사업!</h4>
-                <br />
-                <br />
-                <div class="col-md-5">
+                <BR />
+                <BR />
+                <div class="col-md-4">
                   <h3>공고제목 or 이미지</h3>
                   <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
                   <h3>공고제목 or 이미지</h3>
                   <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
                   <h3>공고제목 or 이미지</h3>
                   <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
                 </div>
@@ -38,17 +38,68 @@
                     <tr>
                       <th scope="row">지원</th>
                       <td class="support-content">
-                        <div>내용이 들어갑니다.</div>
-                        <CButton class="keywordbtn" color="secondary"
+                        <div>
+                          '지원' 이라는 키워드가 들어가는 경우 사업 크롤링
+                        </div>
+                        <CButton
+                          class="keywordbtn"
+                          color="secondary"
+                          @click="
+                            () => {
+                              visibleLiveDemo = true
+                            }
+                          "
                           >수정하기</CButton
                         >
+                        <CModal
+                          :visible="visibleLiveDemo"
+                          @close="
+                            () => {
+                              visibleLiveDemo = false
+                            }
+                          "
+                        >
+                          <CModalHeader>
+                            <CModalTitle class="logfixtitle"
+                              >키워드 수정</CModalTitle
+                            >
+                          </CModalHeader>
+                          <CModalBody>
+                            <CInputGroup class="mb-3">
+                              <CInputGroupText>
+                                <CIcon icon="cilLaptop" />
+                              </CInputGroupText>
+                              <CFormInput placeholder="키워드입력" />
+                            </CInputGroup>
+                          </CModalBody>
+                          <CModalFooter>
+                            <CButton
+                              color="secondary"
+                              @click="
+                                () => {
+                                  visibleLiveDemo = false
+                                }
+                              "
+                              >수정하기</CButton
+                            >
+                          </CModalFooter>
+                        </CModal>
                       </td>
                     </tr>
                     <tr>
                       <th scope="row">지원사업</th>
                       <td class="support-content">
-                        <div>내용이 들어갑니다.</div>
-                        <CButton class="keywordbtn" color="secondary"
+                        <div>
+                          '지원사업' 이라는 키워드가 들어가는 경우 사업 크롤링
+                        </div>
+                        <CButton
+                          class="keywordbtn"
+                          color="secondary"
+                          @click="
+                            () => {
+                              visibleLiveDemo = true
+                            }
+                          "
                           >수정하기</CButton
                         >
                       </td>
@@ -56,14 +107,42 @@
                     <tr>
                       <th scope="row">지원금</th>
                       <td class="support-content">
-                        <div>내용이 들어갑니다.</div>
-                        <CButton class="keywordbtn" color="secondary"
+                        <div>
+                          '지원금' 이라는 키워드가 들어가는 경우 사업 크롤링
+                        </div>
+                        <CButton
+                          class="keywordbtn"
+                          color="secondary"
+                          @click="
+                            () => {
+                              visibleLiveDemo = true
+                            }
+                          "
+                          >수정하기</CButton
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">창업</th>
+                      <td class="support-content">
+                        <div>
+                          '창업' 이라는 키워드가 들어가는 경우 사업 크롤링
+                        </div>
+                        <CButton
+                          class="keywordbtn"
+                          color="secondary"
+                          @click="
+                            () => {
+                              visibleLiveDemo = true
+                            }
+                          "
                           >수정하기</CButton
                         >
                       </td>
                     </tr>
                   </tbody>
                 </table>
+                <div><a class="more" href="#">더보기</a></div>
               </CRow>
             </CRow>
           </CCardBody>
@@ -79,6 +158,11 @@ export default {
   components: {},
   setup() {
     return {}
+  },
+  data() {
+    return {
+      visibleLiveDemo: false,
+    }
   },
 }
 </script>
@@ -119,5 +203,9 @@ table.keyword td {
   width: 100% !important;
   display: flex;
   justify-content: space-between;
+}
+.more {
+  display: flex;
+  justify-content: end;
 }
 </style>

@@ -67,6 +67,11 @@ export default [
         name: '지원금지원',
         to: '/Question/none',
       },
+      {
+        component: 'CNavItem',
+        name: '테스트용',
+        to: '/Question/cards',
+      },
     ],
   },
 ]
