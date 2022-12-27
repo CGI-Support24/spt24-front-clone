@@ -17,85 +17,90 @@
                 <div class="row">
                   <div class="col-md-3">
                     <CCard class="border-secondary">
-                      <router-link to="Supportnotice/Supportnotice">
+                      <A
+                        href="https://general-twist-2b7.notion.site/BoomUP-2022-075a812a8fc54aa191e6bc8285c93ba9"
+                      >
                         <CCardImage orientation="top" :src="VueImg" />
-                      </router-link>
+                      </A>
                       <CCardBody>
-                        <CCardText>
-                          이부분에는 글의 내용이 들어갑니다
-                        </CCardText>
+                        <CCardText> BoomUP 2022 참여기업 모집 </CCardText>
                       </CCardBody>
                     </CCard>
                   </div>
                   <div class="col-md-3">
                     <CCard class="border-secondary">
-                      <router-link to="Supportnotice/Supportnotice">
+                      <A
+                        href="https://www.mois.go.kr/frt/sub/a06/b07/localyouthjob/screen.do"
+                      >
                         <CCardImage orientation="top" :src="VueImg2" />
-                      </router-link>
+                      </A>
                       <CCardBody>
-                        <CCardText>
-                          이부분에는 글의 내용이 들어갑니다
-                        </CCardText>
+                        <CCardText> 지역주도형 청년일자리사업 </CCardText>
                       </CCardBody>
                     </CCard>
                   </div>
                   <div class="col-md-3">
                     <CCard class="border-secondary">
-                      <router-link to="Supportnotice/Supportnotice">
+                      <a
+                        href="http://www.gywbi.or.kr/sub1/sub1_view.aspx?b=482&p=0&cdt=&txt="
+                      >
                         <CCardImage orientation="top" :src="VueImg3" />
-                      </router-link>
+                      </a>
                       <CCardBody>
                         <CCardText>
-                          이부분에는 글의 내용이 들어갑니다
+                          고양시여성창업지원센터 7기 입주기업 모집 공고
                         </CCardText>
                       </CCardBody>
                     </CCard>
                   </div>
                   <div class="col-md-3">
                     <CCard class="border-secondary">
-                      <router-link to="Supportnotice/Supportnotice">
+                      <a
+                        href="https://www.egbiz.or.kr/prjCategory/a/m/selectPrjView.do?prjDegreeId=PD000000027591"
+                      >
                         <CCardImage orientation="top" :src="VueImg4" />
-                      </router-link>
+                      </a>
                       <CCardBody>
                         <CCardText>
-                          이부분에는 글의 내용이 들어갑니다
+                          경기벤처창업지원센터&경기스타트업랩(AI) 개방형
+                          창업공간 2023년 상반기 모집 공고
                         </CCardText>
                       </CCardBody>
                     </CCard>
                   </div>
                   <div class="col-md-3">
                     <CCard class="border-secondary">
-                      <router-link to="Supportnotice/Supportnotice">
+                      <a
+                        href="http://www.gsp.or.kr/supportProject/UVSD0001.do?sportSeq=3189"
+                      >
                         <CCardImage orientation="top" :src="VueImg5" />
-                      </router-link>
+                      </a>
                       <CCardBody>
                         <CCardText>
-                          이부분에는 글의 내용이 들어갑니다
+                          2023년 경기 스타트업 랩 신규 입주기업 모집
                         </CCardText>
                       </CCardBody>
                     </CCard>
                   </div>
                   <div class="col-md-3">
                     <CCard class="border-secondary">
-                      <router-link to="Supportnotice/Supportnotice">
+                      <a href="http://me2.do/GnCvTtqr">
                         <CCardImage orientation="top" :src="VueImg6" />
-                      </router-link>
+                      </a>
                       <CCardBody>
                         <CCardText>
-                          이부분에는 글의 내용이 들어갑니다
+                          경기벤처창업지원센터(안양/판교) BI 입주기업 모집
                         </CCardText>
                       </CCardBody>
                     </CCard>
                   </div>
                   <div class="col-md-3">
                     <CCard class="border-secondary">
-                      <router-link to="Supportnotice/Supportnotice">
+                      <A href="http://ggxr.or.kr/">
                         <CCardImage orientation="top" :src="VueImg7" />
-                      </router-link>
+                      </A>
                       <CCardBody>
-                        <CCardText>
-                          이부분에는 글의 내용이 들어갑니다
-                        </CCardText>
+                        <CCardText> 경기VR/AR제작거점센터 안내 </CCardText>
                       </CCardBody>
                     </CCard>
                   </div>
@@ -108,7 +113,7 @@
                       </a>
                       <CCardBody>
                         <CCardText>
-                          이부분에는 글의 내용이 들어갑니다
+                          2022년 경기도 기술개발사업 평가위원 후보단 모집 공고
                         </CCardText>
                       </CCardBody>
                     </CCard>
