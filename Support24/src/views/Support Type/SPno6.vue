@@ -16,27 +16,35 @@
             <CRow>
               <div class="container show-grid">
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <h3>공고제목 or 이미지</h3>
                     <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <h3>공고제목 or 이미지</h3>
                     <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <h3>공고제목 or 이미지</h3>
                     <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <h3>공고제목 or 이미지</h3>
                     <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <h3>공고제목 or 이미지</h3>
                     <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3">
+                    <h3>공고제목 or 이미지</h3>
+                    <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <h3>공고제목 or 이미지</h3>
+                    <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
+                  </div>
+                  <div class="col-md-3">
                     <h3>공고제목 or 이미지</h3>
                     <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
                   </div>

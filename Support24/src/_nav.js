@@ -69,7 +69,6 @@ export default [
       },
       {
         component: 'CNavItem',
-        name: '테스트용',
         to: '/Question/cards',
       },
     ],

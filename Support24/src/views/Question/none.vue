@@ -6,29 +6,21 @@
           <CCardBody>
             <CRow>
               <CCol :sm="5">
-                <h4 id="traffic" class="card-title mb-0">지원금 지원 관련</h4>
+                <h4 id="traffic" class="card-title mb-0">지원금 관련 사항</h4>
                 <br />
                 <br />
               </CCol>
             </CRow>
-            <CRow>
-              <div class="container show-grid">
-                <div class="row">
-                  <div class="col-md-4">
-                    <h3>공고제목 or 이미지</h3>
-                    <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
-                  </div>
-                  <div class="col-md-4">
-                    <h3>공고제목 or 이미지</h3>
-                    <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
-                  </div>
-                  <div class="col-md-4">
-                    <h3>공고제목 or 이미지</h3>
-                    <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
-                  </div>
-                </div>
-              </div>
-            </CRow>
+            <CCol :md="12">
+              <P
+                >지원금 관련 문의 사항은 공고문에 작성되어 있는 연락처 및
+                이메일로 문의사항을 접수해 주세요.</P
+              >
+              <P
+                >지원금 관련 문의사항 추가 접수가 필요하시다면 자주묻는 질문의
+                추가 문의사항 접수를 이용해 주세요.</P
+              >
+            </CCol>
           </CCardBody>
         </CCard>
       </CCol>
