@@ -13,17 +13,68 @@
                 <h4>오늘 추가된 지원사업!</h4>
                 <BR />
                 <BR />
-                <div class="col-md-4">
-                  <h3>공고제목 or 이미지</h3>
-                  <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
+
+                <div class="col-md-3">
+                  <CCard class="border-secondary">
+                    <A
+                      href="https://www.gsp.or.kr/supportProject/UVSD0001.do?sportSeq=3206
+"
+                    >
+                      <CCardImage orientation="top" :src="SPstartup" />
+                    </A>
+                    <CCardBody>
+                      <CCardText>
+                        22년 지방 핀테크기업 입주지원 대상기업 모집공고
+                      </CCardText>
+                    </CCardBody>
+                  </CCard>
                 </div>
-                <div class="col-md-4">
-                  <h3>공고제목 or 이미지</h3>
-                  <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
+                <div class="col-md-3">
+                  <CCard class="border-secondary">
+                    <A
+                      href="https://www.egbiz.or.kr/prjCategory/a/m/selectPrjView.do?prjDegreeId=PD000000025644
+"
+                    >
+                      <CCardImage orientation="top" :src="SPstartup2" />
+                    </A>
+                    <CCardBody>
+                      <CCardText>
+                        2022년도 일터혁신 컨설팅 지원사업 안내
+                      </CCardText>
+                    </CCardBody>
+                  </CCard>
                 </div>
-                <div class="col-md-4">
-                  <h3>공고제목 or 이미지</h3>
-                  <p>공고 내용 여기는 지원사업 내용을 쓰는 자리 입니다.</p>
+                <div class="col-md-3">
+                  <CCard class="border-secondary">
+                    <A
+                      href="https://www.egbiz.or.kr/prjCategory/a/m/selectPrjView.do?prjDegreeId=PD000000027591
+"
+                    >
+                      <CCardImage orientation="top" :src="SPstartup3" />
+                    </A>
+                    <CCardBody>
+                      <CCardText>
+                        경기벤처창업지원센터&경기스타트업랩(AI) 개방형
+                        창업공간(지정석) 2023년 상반기 모집 공고
+                      </CCardText>
+                    </CCardBody>
+                  </CCard>
+                </div>
+                <div class="col-md-3">
+                  <CCard class="border-secondary">
+                    <A
+                      href="https://www.egbiz.or.kr/prjCategory/a/m/selectPrjView.do?prjDegreeId=PD000000027591
+"
+                    >
+                      <CCardImage orientation="top" :src="SPstartup4" />
+                    </A>
+                    <CCardBody>
+                      <CCardText>
+                        경기벤처창업지원센터&경기스타트업랩(AI) 개방형
+                        창업공간(지정석) 2023년 상반기 모집 공고
+                      </CCardText>
+                    </CCardBody>
+                  </CCard>
                 </div>
                 <BR />
                 <table class="keyword2">
@@ -275,10 +326,19 @@
 
 <!-- 백단에서 넣어야 하는 데이터들은 여기아래에-->
 <script>
+import SPstartup from '@/assets/SPstartup/SPstartup.jpg'
+import SPstartup2 from '@/assets/SPstartup/SPstartup2.jpg'
+import SPstartup3 from '@/assets/SPstartup/SPstartup3.jpg'
+import SPstartup4 from '@/assets/SPstartup/SPstartup4.jpg'
 export default {
   components: {},
   setup() {
-    return {}
+    return {
+      SPstartup,
+      SPstartup2,
+      SPstartup3,
+      SPstartup4,
+    }
   },
   data() {
     return {

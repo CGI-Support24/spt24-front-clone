@@ -8,7 +8,7 @@
               <CCol :md="12">
                 <h4 id="traffic" class="card-title mb-0">자주 묻는 질문</h4>
                 <br />
-                <CAccordion :active-item-key="2" always-open id="test4">
+                <CAccordion>
                   <CAccordionItem :item-key="1">
                     <CAccordionHeader>
                       지원사업은 누구나 지원할수 있는건가요?

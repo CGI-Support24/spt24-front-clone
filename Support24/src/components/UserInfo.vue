@@ -69,7 +69,15 @@
           </CInputGroup>
         </CModalBody>
         <CModalFooter>
-          <CButton class="ModalButton">수정하기</CButton>
+          <CButton
+            class="ModalButton"
+            @click="
+              () => {
+                visibleLiveDemo = false
+              }
+            "
+            >수정하기</CButton
+          >
           <CButton
             color="secondary"
             @click="
