@@ -143,98 +143,121 @@
               <div class="container show-grid">
                 <div class="row">
                   <div class="col-md-3">
-                    <CCard>
-                      <router-link to="Supportnotice/Supportnotice">
-                        <CCardImage orientation="top" :src="VueImg" />
-                      </router-link>
+                    <CCard class="border-secondary">
+                      <a
+                        href="https://www.rechallenge.or.kr/planweb/board/view.9is?dataUid=2c9b8073831b7803018430ab8b95636a&page=1&boardUid=40288095586a64e001586c59efce00f7&contentUid=402880955861e980015861fbf1aa0040&layoutUid=&searchType=&keyword=&categoryUid1=&categoryUid2=&cateogryUid3=
+"
+                      >
+                        <CCardImage orientation="top" :src="VueImg9" />
+                      </a>
                       <CCardBody>
                         <CCardText>
-                          이부분에는 글의 내용이 들어갑니다
+                          [2022 New Start-up 재도전 성공 길잡이] 힐링캠프 참가자
+                          모집
                         </CCardText>
                       </CCardBody>
                     </CCard>
                   </div>
                   <div class="col-md-3">
-                    <CCard>
-                      <router-link to="Supportnotice/Supportnotice">
-                        <CCardImage orientation="top" :src="VueImg" />
-                      </router-link>
+                    <CCard class="border-secondary">
+                      <a
+                        href="https://www.kita.net/asocGuidance/notice/noticeDetail.do?searchOpenYn=&pageIndex=2&nIndex=1828442&indexArray=&sortArray=&searchReqType=detail&pcRadio=on&searchCommCode1=&startBusinessDate=&endBusinessDate=&searchCondition=TITLE&searchKeyword=&continent_nm=&continent_cd=&country_nm=&country_cd=&sector_nm=&sector_cd=&itemCd_nm=&itemCd_cd=
+"
+                      >
+                        <CCardImage orientation="top" :src="VueImg10" />
+                      </a>
                       <CCardBody>
                         <CCardText>
-                          이부분에는 글의 내용이 들어갑니다
+                          [무역아카데미] 초스피드 무역스타트업 과정 수강생 모집
                         </CCardText>
                       </CCardBody>
                     </CCard>
                   </div>
                   <div class="col-md-3">
-                    <CCard>
-                      <router-link to="Supportnotice/Supportnotice">
-                        <CCardImage orientation="top" :src="VueImg" />
-                      </router-link>
+                    <CCard class="border-secondary">
+                      <a
+                        href="https://www.gsp.or.kr/supportProject/UVSD0001.do?sportSeq=3217"
+                      >
+                        <CCardImage orientation="top" :src="VueImg11" />
+                      </a>
                       <CCardBody>
                         <CCardText>
-                          이부분에는 글의 내용이 들어갑니다
+                          『2022년 재도전 성공패키지(교육형)』RE-UP 프로젝트 3차
+                          참가자 모집
                         </CCardText>
                       </CCardBody>
                     </CCard>
                   </div>
                   <div class="col-md-3">
-                    <CCard>
-                      <router-link to="Supportnotice/Supportnotice">
-                        <CCardImage orientation="top" :src="VueImg" />
-                      </router-link>
+                    <CCard class="border-secondary">
+                      <a
+                        href="https://www.egbiz.or.kr/prjCategory/a/m/selectPrjView.do?prjDegreeId=PD000000027588"
+                      >
+                        <CCardImage orientation="top" :src="VueImg12" />
+                      </a>
                       <CCardBody>
                         <CCardText>
-                          이부분에는 글의 내용이 들어갑니다
+                          ★전국대상★2023 홍콩 가정용품 전시회 한국관 참가기업
+                          모집
                         </CCardText>
                       </CCardBody>
                     </CCard>
                   </div>
                   <div class="col-md-3">
-                    <CCard>
-                      <router-link to="Supportnotice/Supportnotice">
-                        <CCardImage orientation="top" :src="VueImg" />
-                      </router-link>
+                    <CCard class="border-secondary">
+                      <a
+                        href="https://www.gsp.or.kr/supportProject/UVSD0001.do?sportSeq=1986"
+                      >
+                        <CCardImage orientation="top" :src="VueImg13" />
+                      </a>
                       <CCardBody>
                         <CCardText>
-                          이부분에는 글의 내용이 들어갑니다
+                          [안랩] 경기스타트업플랫폼 클라우드 매니지드 서비스
+                          AhnLab Cloud 지원사업 안내
                         </CCardText>
                       </CCardBody>
                     </CCard>
                   </div>
                   <div class="col-md-3">
-                    <CCard>
-                      <router-link to="Supportnotice/Supportnotice">
-                        <CCardImage orientation="top" :src="VueImg" />
-                      </router-link>
+                    <CCard class="border-secondary">
+                      <a
+                        href="https://www.kita.net/asocGuidance/notice/noticeDetail.do?searchOpenYn=&pageIndex=2&nIndex=1828548&indexArray=&sortArray=&searchReqType=detail&pcRadio=on&searchCommCode1=&startBusinessDate=&endBusinessDate=&searchCondition=TITLE&searchKeyword=&continent_nm=&continent_cd=&country_nm=&country_cd=&sector_nm=&sector_cd=&itemCd_nm=&itemCd_cd="
+                      >
+                        <CCardImage orientation="top" :src="VueImg14" />
+                      </a>
                       <CCardBody>
                         <CCardText>
-                          이부분에는 글의 내용이 들어갑니다
+                          2023 독일 쾰른 스포츠·피트니스 전시회 (FIBO 2023)
+                          한국관 참가 기업 모집
                         </CCardText>
                       </CCardBody>
                     </CCard>
                   </div>
                   <div class="col-md-3">
-                    <CCard>
-                      <router-link to="Supportnotice/Supportnotice">
-                        <CCardImage orientation="top" :src="VueImg" />
-                      </router-link>
+                    <CCard class="border-secondary">
+                      <a
+                        href="https://www.gsp.or.kr/supportProject/UVSD0001.do?sportSeq=3120"
+                      >
+                        <CCardImage orientation="top" :src="VueImg15" />
+                      </a>
                       <CCardBody>
                         <CCardText>
-                          이부분에는 글의 내용이 들어갑니다
+                          [쿼타북] 스타트업 증권 관리 서비스 지원사업
+                          안내(스타트업(법인기업) 대상)
                         </CCardText>
                       </CCardBody>
                     </CCard>
                   </div>
                   <div class="col-md-3">
-                    <CCard>
-                      <router-link to="Supportnotice/Supportnotice">
-                        <CCardImage orientation="top" :src="VueImg2" />
-                      </router-link>
+                    <CCard class="border-secondary">
+                      <a
+                        href="https://www.egbiz.or.kr/prjCategory/a/m/selectPrjView.do?prjDegreeId=PD000000026162
+"
+                      >
+                        <CCardImage orientation="top" :src="VueImg16" />
+                      </a>
                       <CCardBody>
-                        <CCardText>
-                          이부분에는 글의 내용이 들어갑니다
-                        </CCardText>
+                        <CCardText> 2022년 노란우산 공제 사업 안내 </CCardText>
                       </CCardBody>
                     </CCard>
                   </div>
@@ -250,14 +273,22 @@
 
 <!-- 백단에서 넣어야 하는 데이터들은 여기아래에-->
 <script>
-import VueImg from '@/assets/images/vue.jpg'
-import VueImg2 from '@/assets/images/vue2.jpg'
-import VueImg3 from '@/assets/images/vue3.jpg'
-import VueImg4 from '@/assets/images/vue4.jpg'
-import VueImg5 from '@/assets/images/vue5.jpg'
-import VueImg6 from '@/assets/images/vue6.jpg'
-import VueImg7 from '@/assets/images/vue7.jpg'
-import VueImg8 from '@/assets/images/vue8.jpg'
+import VueImg from '@/assets/Dashboardimg/vue.jpg'
+import VueImg2 from '@/assets/Dashboardimg/vue2.jpg'
+import VueImg3 from '@/assets/Dashboardimg/vue3.jpg'
+import VueImg4 from '@/assets/Dashboardimg/vue4.jpg'
+import VueImg5 from '@/assets/Dashboardimg/vue5.jpg'
+import VueImg6 from '@/assets/Dashboardimg/vue6.jpg'
+import VueImg7 from '@/assets/Dashboardimg/vue7.jpg'
+import VueImg8 from '@/assets/Dashboardimg/vue8.jpg'
+import VueImg9 from '@/assets/Dashboardimg/Mimg1.jpg'
+import VueImg10 from '@/assets/Dashboardimg/Mimg2.jpg'
+import VueImg11 from '@/assets/Dashboardimg/Mimg3.jpg'
+import VueImg12 from '@/assets/Dashboardimg/Mimg4.jpg'
+import VueImg13 from '@/assets/Dashboardimg/Mimg5.jpg'
+import VueImg14 from '@/assets/Dashboardimg/Mimg6.jpg'
+import VueImg15 from '@/assets/Dashboardimg/Mimg7.jpg'
+import VueImg16 from '@/assets/Dashboardimg/Mimg8.jpg'
 export default {
   components: {},
   setup() {
@@ -270,6 +301,14 @@ export default {
       VueImg6,
       VueImg7,
       VueImg8,
+      VueImg9,
+      VueImg10,
+      VueImg11,
+      VueImg12,
+      VueImg13,
+      VueImg14,
+      VueImg15,
+      VueImg16,
     }
   },
 }
