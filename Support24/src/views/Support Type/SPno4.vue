@@ -126,7 +126,7 @@
                       </A>
                       <CCardBody>
                         <CCardText>
-                          2022년 시니어인턴십 참여기업 모집 @
+                          2022년 시니어인턴십 참여기업 모집
                         </CCardText>
                       </CCardBody>
                     </CCard>
