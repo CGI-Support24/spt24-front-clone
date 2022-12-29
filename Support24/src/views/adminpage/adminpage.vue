@@ -90,36 +90,36 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>지원사업명1</td>
-                      <td>금융</td>
-                      <td>투자기업발굴</td>
-                      <td>3년미만</td>
-                      <td>청년</td>
-                      <td>서울</td>
+                      <td>22년 지방 핀테크기업 입주지원 대상기업 모집</td>
+                      <td>경영</td>
+                      <td>기업당 월 최대 200만원 이내 임차료 지원</td>
+                      <td>7년미만</td>
+                      <td>전체</td>
+                      <td>서울 제외</td>
                     </tr>
                     <tr>
-                      <td>지원사업명2</td>
-                      <td>기술</td>
-                      <td>개요2</td>
-                      <td>창업예정</td>
-                      <td>중년</td>
+                      <td>2022년도 일터혁신 컨설팅 지원사업</td>
+                      <td>경영</td>
+                      <td>기업의 자율적인 일터혁신 기반 구축을 통해 ...</td>
+                      <td>전체</td>
+                      <td>전체</td>
+                      <td>전체</td>
+                    </tr>
+                    <tr>
+                      <td>경기벤처 창업지원센터&경기스타트업랩 개방형 ...</td>
+                      <td>경영</td>
+                      <td>개방형 창업공간(지정석) 2023년 상반기 신규이 ...</td>
+                      <td>예비창업</td>
+                      <td>전체</td>
                       <td>경기</td>
                     </tr>
                     <tr>
-                      <td>지원사업명3</td>
+                      <td>경기도 중소기업·소상공인을 위한 「비대면 교육」</td>
                       <td>인력</td>
-                      <td>개요3</td>
-                      <td>7년미만</td>
-                      <td>정년퇴직이후</td>
-                      <td>광주</td>
-                    </tr>
-                    <tr>
-                      <td>지원사업명4</td>
-                      <td>내용</td>
-                      <td>개요4</td>
+                      <td>-</td>
                       <td>전체</td>
                       <td>전체</td>
-                      <td>부산</td>
+                      <td>경기</td>
                     </tr>
                   </tbody>
                 </table>
@@ -185,7 +185,7 @@
                     </CInputGroup>
                   </CModalBody>
                   <CModalFooter>
-                    <CButton class="ModalButton">수정하기</CButton>
+                    <CButton class="ModalButton" >수정하기</CButton>
                     <CButton
                       color="secondary"
                       @click="
